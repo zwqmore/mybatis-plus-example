@@ -1,0 +1,14 @@
+
+server:
+  port: 8081
+
+spring:
+  #  设置服务名
+  application:
+    name: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mybatis-plus-demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: root
+
